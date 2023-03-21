@@ -333,12 +333,17 @@ const MarkSheet = () => {
                   <td>{item?.total}</td>
                   <td>{item?.percentage <= 35 ? "Fail" : item?.percentage}</td>
                   <td>
-                    <button onClick={() => handleEdit(item, index)}>
+                    <button
+                      onClick={() => handleEdit(item, index)}
+                      className="btn"
+                    >
                       Edit
                     </button>
                   </td>
                   <td>
-                    <button onClick={() => handleDelete(index)}>Delete</button>
+                    <button onClick={() => handleDelete(index)} className="btn">
+                      Delete
+                    </button>
                   </td>
                 </tr>
               );
