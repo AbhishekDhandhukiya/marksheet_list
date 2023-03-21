@@ -1,0 +1,52 @@
+.input{
+    width: 300px;
+    height: 28px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.sub-btn{
+    width: 100%;
+    max-width: 100px;
+    height: 25px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.labels{
+    font-size: 18px;
+}
+.mark-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mark-table{
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+th{
+    text-align: left;
+}
+th, td {
+    border-bottom: 1px solid grey;
+    height: 40px; 
+}
+tr:hover {
+    background-color: lightgray;
+} 
+.danger_color{
+    background-color: red;
+}
+.dark_color{
+    background-color: yellow;
+}
+.mild_color{
+    background-color: green;
+}
