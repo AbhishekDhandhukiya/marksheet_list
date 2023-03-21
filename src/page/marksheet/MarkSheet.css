@@ -4,16 +4,16 @@
     border-radius: 5px;
     font-size: 17px;
 }
-.sub-btn{
+.submit-btn{
     width: 100%;
     height: 30px;
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .labels{
-    font-size: 18px;
+    font-size: 20px;
 }
 .mark-form{
     display: flex; 
@@ -37,7 +37,7 @@ th{
 th, td {
     border-bottom: 1px solid grey;
     height: 40px; 
-    font-size: 18px;
+    font-size: 19px;
 }
 tr:hover {
     background-color: lightgray;

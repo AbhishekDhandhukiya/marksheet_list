@@ -11,16 +11,18 @@
 .sub-btn{
     width: 100%;
     font-size: 22px;
-    border-radius: 15px;
+    border-radius: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-.labels{
-    font-size: 20px;
+.labels-list{
+    font-size: 22px;
 }
 .table-design {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .table-list{
