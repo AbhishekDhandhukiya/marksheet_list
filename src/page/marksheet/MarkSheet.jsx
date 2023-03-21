@@ -223,7 +223,7 @@ const MarkSheet = () => {
           />
           <br />
 
-          <button type="submit" className="sub-btn">
+          <button type="submit" className="submit-btn">
             {isEdit ? "Edit" : "Submit"}
           </button>
         </form>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
-import Header from "../../header/Header";
+import Header from "../header/Header";
 import "react-toastify/dist/ReactToastify.css";
 import "./list.css";
 
@@ -76,7 +76,7 @@ const List = () => {
       <div className="register">
         <h1>Register Form</h1>
         <form onSubmit={handleSubmit}>
-          <label className="labels">First name:</label>
+          <label className="labels-list">First name:</label>
           <br />
 
           <input
@@ -89,7 +89,7 @@ const List = () => {
           />
           <br />
 
-          <label className="labels">Last name:</label>
+          <label className="labels-list">Last name:</label>
           <br />
           <input
             type="text"
@@ -101,7 +101,7 @@ const List = () => {
           />
           <br />
 
-          <label className="labels">User name:</label>
+          <label className="labels-list">User name:</label>
           <br />
           <input
             type="text"
@@ -113,7 +113,7 @@ const List = () => {
           />
           <br />
 
-          <label className="labels">Email:</label>
+          <label className="labels-list">Email:</label>
           <br />
           <input
             type="email"
